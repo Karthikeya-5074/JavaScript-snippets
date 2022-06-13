@@ -1,16 +1,15 @@
+
 function myDisplayer(some) {
-    document.getElementById("demo").innerHTML = some;
-  }
-function First(){
-    myDisplayer("Good Morning! Have a Nice Day");
-}
-function Second(){
-    myDisplayer("Good Evening");
-}
-function Third(){
-    myDisplayer("Good Night")
+  document.getElementById("demo").innerHTML = some;
 }
 
-First();
-Third();
-Second();
+function myFirst() {
+  myDisplayer("Hello");
+}
+
+function mySecond() {
+  myDisplayer("Goodbye");
+}
+
+myFirst();
+mySecond();
