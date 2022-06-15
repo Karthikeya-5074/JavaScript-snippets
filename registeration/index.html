@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register Your Form Yourself</title>
+    
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <div class="container">
+        <form name="myform" id="myform">
+            <h1>Registration Form</h1>
+            <p>Please Register Your self</p>
+            
+            <label for="fname"><b>Enter Your First Name</b></label>
+            <input type="text" name="fname" id="fname" placeholder="Enter your first name">
+
+            <label for="lname"><b>Enter your Last Name</b></label>
+            <input type="text" name="lname" id="lname" placeholder="Enter your Last name">
+            <br>
+
+            <label for="email"><b>Email</b></label>
+            <input type="email" name="email" id="email" placeholder="Enter email address">
+            <br>
+            <br>
+            <label for="pass"><b>Password</b></label>
+            <input type="password" name="pass" id="pass" placeholder="Enter your Password">
+
+            <label for="repass"><b>Enter password again</b></label>
+            <input type="password" name="repass" id="repass" placeholder="re-enter your password">
+
+            <label for="state"><b>Select your state</b></label>
+            <select name="state" id="state">
+                <option value="Select">Select</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="TamilNadu">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Maharastra">Maharastra</option>
+            </select>
+
+            <label for="gender" name="gender"><b>Gender</b></label>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Others">Others
+
+            <br>
+            <br>
+
+            <label for="lan"><b>Language</b></label>
+            <input type="checkbox" name="checkbox" value="English">English
+            <input type="checkbox" name="checkbox" value="Telugu">Telugu
+            <input type="checkbox" name="checkbox" value="Hindi">Hindi
+            <input type="checkbox" name="checkbox" value="Kannada">Kannada
+
+            <br>
+
+            <label for="address"><b>Address</b></label>
+            <textarea name="address" id="address" cols="20" rows="5"></textarea>
+
+            <input type="submit" class="sub" value="Register">
+        </form>
+    </div>
+    <script src="vanila.js"></script>
+</body>
+</html>

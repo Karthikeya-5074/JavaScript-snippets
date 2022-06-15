@@ -1,0 +1,67 @@
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+body{
+    background-image: url(picture.jpg) ;
+}
+h1, p{
+    text-align: center;
+}
+input[type = password]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    /* resize: vertical; */
+}
+
+.container{
+    /* justify-content: center; */
+    background-color: rgb(198, 193, 193);
+    border-radius: 20px;
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+
+input[type=submit]{
+    background-color: rgb(123, 124, 132);
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color:rgb(115, 181, 9);
+}
+#space{
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+.sub{
+    position: relative;
+    left: 38%;
+}
