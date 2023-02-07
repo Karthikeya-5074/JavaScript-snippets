@@ -1,0 +1,59 @@
+<html>
+    <body class="body">
+      <link rel='stylesheet' href=  'reg.css' type='text/css' />
+      <div>
+    <h1 class="ti">Registration form</h1>
+    <form action="/action_page.php" method="post">
+      <table class="table">
+        <tr>
+          <td><label for="name">Full Name</label></td>
+          <td><input type="text" placeholder="Enter Your fullname"  name="fname" required></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td><input type="text" id="email" name="email" id="email" placeholder="Enter Your Email"></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password</label></td>
+          <td><input type="password" id="pass"></td>
+        </tr>
+        <tr>
+          <td><label for="phoneNumber">Phone Number</label></td>
+          <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender</label></td>
+          <td> <input type="radio"  name="gender" value="Male"> Male
+             <input type="radio"  name="gender" value="Female"> Female
+            <input type="radio"  name="gender" value="Others"> Others</td> 
+        </tr>
+        <tr>
+          <td><label for="language">language</label></td>
+          <td>
+            <select name="language" id="language">
+              <option value="">Select language</option>
+              <option value="English">English</option>
+              <option value="Spanish">Telugu</option>
+              <option value="Hindi">Tamil</option>
+              <option value="Arabic">Marati</option>
+              <option value="Russian">Kannada</option>
+              <option value="Russian">Hindi</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="zipcode">Pin Code</label></td>
+          <td><input type="number" name="zipcode" id="zipcode"></td>
+        </tr>
+        <tr>
+          <td><label for="about">About</label></td>
+          <td><textarea name="about" placeholder="Tell me Something About" id="about"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="submit" class="submit" value="Register" /></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+    </body>
+  </html>
